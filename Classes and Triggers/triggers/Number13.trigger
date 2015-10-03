@@ -9,7 +9,7 @@ trigger Number13 on Account (after update) {
         }
     }
     
-    update contactUpdateList;
+    upsert contactUpdateList;
     
     /*OR*/
     //Asynchronous
